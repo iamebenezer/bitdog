@@ -139,7 +139,7 @@
 
 .elementor-8 .elementor-element.elementor-element-5d938d30:not(.elementor-motion-effects-element-type-background),
 .elementor-8 .elementor-element.elementor-element-5d938d30>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-    background-color: #fff;
+   background-image: linear-gradient(to right top, #d8c9b6, #e9d4cd, #f1e1e3, #f6f0f4, #ffffff);
 }
 
 .elementor-8 .elementor-element.elementor-element-5d938d30,
@@ -336,7 +336,7 @@
 
 .elementor-8 .elementor-element.elementor-element-0e2dd6c:not(.elementor-motion-effects-element-type-background),
 .elementor-8 .elementor-element.elementor-element-0e2dd6c>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-    background-color: #fff;
+     background-image: linear-gradient(to right top, #d8c9b6, #e9d4cd, #f1e1e3, #f6f0f4, #ffffff)
 }
 
 .elementor-8 .elementor-element.elementor-element-0e2dd6c,
@@ -363,7 +363,8 @@
 
 .elementor-8 .elementor-element.elementor-element-e65c483>.elementor-widget-container {
     background-color: transparent;
-    background-image: radial-gradient(at center center, #1ff022 0%, #fff 63%);
+    /* background-image: radial-gradient(at center center, #1ff022 0%, #fff 63%); */
+
 }
 
 .elementor-8 .elementor-element.elementor-element-e65c483.ha-has-bg-overlay>.elementor-widget-container:before {
@@ -410,7 +411,7 @@
 
 .elementor-8 .elementor-element.elementor-element-398fdd81:not(.elementor-motion-effects-element-type-background),
 .elementor-8 .elementor-element.elementor-element-398fdd81>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-    background-color: #fff;
+     background-image: linear-gradient(to right top, #d8c9b6, #e9d4cd, #f1e1e3, #f6f0f4, #ffffff)
 }
 
 .elementor-8 .elementor-element.elementor-element-398fdd81,
@@ -804,7 +805,7 @@
 
 .elementor-8 .elementor-element.elementor-element-8308a92:not(.elementor-motion-effects-element-type-background),
 .elementor-8 .elementor-element.elementor-element-8308a92>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-    background-color: #fff;
+     background-image: linear-gradient(to right top, #d8c9b6, #e9d4cd, #f1e1e3, #f6f0f4, #ffffff)
 }
 
 .elementor-8 .elementor-element.elementor-element-8308a92::before,
@@ -1087,7 +1088,7 @@
 
 .elementor-8 .elementor-element.elementor-element-862c71c:not(.elementor-motion-effects-element-type-background),
 .elementor-8 .elementor-element.elementor-element-862c71c>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-    background-color: #fff;
+     background-image: linear-gradient(to right top, #d8c9b6, #e9d4cd, #f1e1e3, #f6f0f4, #ffffff)
 }
 
 .elementor-8 .elementor-element.elementor-element-862c71c::before,
@@ -1327,7 +1328,7 @@
 
 .elementor-8 .elementor-element.elementor-element-80791a1:not(.elementor-motion-effects-element-type-background),
 .elementor-8 .elementor-element.elementor-element-80791a1>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-    background-color: #fff;
+     background-image: linear-gradient(to right top, #d8c9b6, #e9d4cd, #f1e1e3, #f6f0f4, #ffffff)
 }
 
 .elementor-8 .elementor-element.elementor-element-80791a1::before,
@@ -1371,7 +1372,7 @@
 
 .elementor-8 .elementor-element.elementor-element-afd24ef:not(.elementor-motion-effects-element-type-background),
 .elementor-8 .elementor-element.elementor-element-afd24ef>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-    background-color: #fff;
+     background-image: linear-gradient(to right top, #d8c9b6, #e9d4cd, #f1e1e3, #f6f0f4, #ffffff)
 }
 
 .elementor-8 .elementor-element.elementor-element-afd24ef::before,

@@ -4606,12 +4606,172 @@ flexibility(document.documentElement);
         <link rel="alternate" type="application/json+oembed" href="https://elonmyro.vip/wp-json/oembed/1.0/embed?url=https%3A%2F%2Felonmyro.vip%2F" />
         <link rel="shortcut icon" href="/wp-content/uploads/2024/01/logo.png" type="image/x-icon">
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link rel="stylesheet" href="/theme.css">    
+        <link rel="stylesheet" href="/loftloader.css">
+            <script src="/loaft.js"></script>
+            <script src="/loaft2.js"></script>
+            
     </head>
+    <style id='loftloader-style-inline-css'>
+        #loftloader-wrapper .loader-bg {
+            opacity: 1.00;
+        }
 
+        #loftloader-wrapper.end-split-h .loader-bg:before,
+        #loftloader-wrapper.end-split-h .loader-bg:after,
+        #loftloader-wrapper.end-split-v .loader-bg:before,
+        #loftloader-wrapper.end-split-v .loader-bg:after,
+        #loftloader-wrapper.end-fade .loader-bg,
+        #loftloader-wrapper.end-up .loader-bg,
+        #loftloader-wrapper.end-down .loader-bg,
+        #loftloader-wrapper.end-left .loader-bg,
+        #loftloader-wrapper.end-right .loader-bg,
+        #loftloader-wrapper.end-shrink-fade .loader-bg:before,
+        .loader-bg .loader-bg-half:before {
+            background-color: #000000;
+        }
+
+        #loftloader-wrapper .loader-inner #loader,
+        #loftloader-wrapper.loftloader-ducks #loader span {
+            color: #248acc
+        }
+
+        #loftloader-wrapper.loftloader-crystal #loader span {
+            box-shadow: 0 -15px 0 0 rgba(36, 138, 204, 0.5), 15px -15px 0 0 rgba(36, 138, 204, 0.5), 15px 0 0 0 rgba(36, 138, 204, 0.5), 15px 15px 0 0 rgba(36, 138, 204, 0.5), 0 15px 0 0 rgba(36, 138, 204, 0.5), -15px 15px 0 0 rgba(36, 138, 204, 0.5), -15px 0 0 0 rgba(36, 138, 204, 0.5), -15px -15px 0 0 rgba(36, 138, 204, 0.5);
+        }
+
+        #loftloader-wrapper.loftloader-crossing #loader span:before {
+            background: #00ffff
+        }
+
+        #loftloader-wrapper.loftloader-crossing #loader span:after {
+            background: #ff0000
+        }
+
+        #loftloader-wrapper.loftloader-rainbow #loader span:before {
+            box-shadow: 0 0 0 10px #ff0000, 0 0 0 20px #ffd700, 0 0 0 30px #00ffff;
+        }
+
+        #loftloader-wrapper.loftloader-frame #loader {
+            width: 80px;
+        }
+
+        #loftloader-wrapper.loftloader-frame #loader {
+            height: 80px;
+        }
+
+        #loftloader-wrapper.loftloader-frame #loader span:after,
+        #loftloader-wrapper.loftloader-frame #loader span:before {
+            width: 4px;
+        }
+
+        #loftloader-wrapper.loftloader-frame #loader:after,
+        #loftloader-wrapper.loftloader-frame #loader:before {
+            height: 4px;
+        }
+
+        #loftloader-wrapper.loftloader-imgfading #loader img,
+        #loftloader-wrapper.loftloader-imgloading #loader img,
+        #loftloader-wrapper.loftloader-imgrotating #loader img,
+        #loftloader-wrapper.loftloader-imgbouncing #loader img,
+        #loftloader-wrapper.loftloader-imgstatic #loader img {
+            width: 140px;
+        }
+
+        #loftloader-wrapper.loftloader-imgfading .loader-inner #loader,
+        #loftloader-wrapper.loftloader-imgloading .loader-inner #loader,
+        #loftloader-wrapper.loftloader-imgrotating .loader-inner #loader,
+        #loftloader-wrapper.loftloader-imgbouncing .loader-inner #loader,
+        #loftloader-wrapper.loftloader-imgstatic .loader-inner #loader {
+            max-width: 100%;
+        }
+
+        #loftloader-wrapper span.bar {
+            width: 30vw;
+        }
+
+        #loftloader-wrapper span.bar {
+            height: 10px;
+        }
+
+        #loftloader-wrapper span.bar,
+        #loftloader-wrapper span.percentage {
+            color: #248acc;
+        }
+
+        #loftloader-wrapper span.percentage,
+        #loftloader-wrapper span.bar span.load-count {
+            font-family: Lato;
+        }
+
+        #loftloader-wrapper span.percentage,
+        #loftloader-wrapper span.bar span.load-count {
+            font-weight: 100;
+        }
+
+        #loftloader-wrapper span.percentage,
+        #loftloader-wrapper span.bar span.load-count {
+            letter-spacing: 0.1em;
+        }
+
+        body #loftloader-wrapper span.percentage,
+        body #loftloader-wrapper span.bar span.load-count {
+            font-size: 16px;
+        }
+
+        #loftloader-wrapper .loader-message {
+            font-size: 16px;
+        }
+
+        #loftloader-wrapper .loader-message {
+            color: #248acc;
+        }
+
+        #loftloader-wrapper .loader-message {
+            font-family: Lato;
+        }
+
+        #loftloader-wrapper .loader-message {
+            font-weight: 400;
+        }
+
+        #loftloader-wrapper .loader-message {
+            letter-spacing: 0.1em;
+        }
+
+        #loftloader-wrapper .loader-message {
+            line-height: 1.5;
+        }
+        .styled-loader{
+            display: none;
+        }
+    </style>
+<div id="loftloader-wrapper" class="end-up loftloader-imgrotating twod ease-back">
+    <div class="loader-bg"></div>
+    <div class="loader-inner">
+        <div id="loader"><img width="140" height="134" data-no-lazy="1" class="skip-lazy" alt="loader image" src="wp-content/uploads/2024/01/logo.png"></div>
+    </div>
+    <script>
+        // Select the element to style
+        const styledElement = document.getElementById('loftloader-wrapper');
+        
+        // Function to apply styling after a certain time
+        function applyStyleAfterTime() {
+            // Wait for 3 seconds (3000 milliseconds) before applying the style
+            setTimeout(() => {
+                styledElement.classList.add('styled-loader'); // Add the 'styled' class to apply the styling
+            }, 1000); // Change this number to the number of milliseconds you want to wait
+        }
+        
+        // Call the function to apply styling after time
+        applyStyleAfterTime();
+    </script>
+    <div class="loader-close-button" style="display: none;"><span class="screen-reader-text">Close</span></div>
+</div>
 <body style="background-color: #fff;" data-rsssl=1 itemtype='https://schema.org/WebPage' itemscope='itemscope' class="home page-template-default page page-id-8 wp-custom-logo ast-desktop ast-page-builder-template ast-no-sidebar astra-4.6.8 ast-single-post ast-inherit-site-logo-transparent ast-theme-transparent-header ast-hfb-header ast-sticky-main-shrink ast-sticky-above-shrink ast-sticky-header-shrink ast-inherit-site-logo-sticky ast-primary-sticky-enabled elementor-default elementor-kit-11 elementor-page elementor-page-8 astra-addon-4.5.1">
 
-    <a class="skip-link screen-reader-text" href="#content" role="link" title="Skip to content">
-		Skip to content</a>
+    <!-- <a class="skip-link screen-reader-text" href="#content" role="link" title="Skip to content">
+		Skip to content</a> -->
 
     <div class="hfeed site" id="page">
         <header class="site-header header-main-layout-1 ast-primary-menu-enabled ast-logo-title-inline ast-hide-custom-menu-mobile ast-builder-menu-toggle-icon ast-mobile-header-inline" id="masthead" itemtype="https://schema.org/WPHeader" itemscope="itemscope"
@@ -4696,7 +4856,7 @@ flexibility(document.documentElement);
                                 <div
                                     class="ast-site-title-wrap">
                                     <span class="site-title" itemprop="name">
-				<a href="" rel="home" itemprop="url" style="color: #000;">
+				<a href="" rel="home" itemprop="url" style="color: #fff; text-shadow: 2px 2px 2px #392206;">
 					 Bit Dog
 				</a>
 			</span>
@@ -5160,7 +5320,8 @@ flexibility(document.documentElement);
                                                         <div class="elementor-icon-wrapper">
                                                             <div class="elementor-icon">
                                                       <img src="/wp-content/uploads/2024/01/bone.png" style="width: 40px;" alt="">
-                                                            </div>
+                                                        
+                                                    </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -5308,8 +5469,11 @@ flexibility(document.documentElement);
                                                     <div class="elementor-widget-container">
                                                         <div class="elementor-icon-wrapper">
                                                             <div class="elementor-icon">
-                                                                <svg aria-hidden="true" class="e-font-icon-svg e-fas-map-marker-alt" viewBox="0 0 384 512" xmlns="http://www.w3.org/2000/svg"><path d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"></path></svg>                                                                </div>
-                                                        </div>
+                                                                <img src="/wp-content/uploads/2024/01/bone.png" style="width: 40px;" alt="">
+                                                    
+                                                                <!-- <svg aria-hidden="true" class="e-font-icon-svg e-fas-map-marker-alt" viewBox="0 0 384 512" xmlns="http://www.w3.org/2000/svg"><path d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"></path></svg>                                                                </div>
+                                                    -->
+                                                            </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -5760,20 +5924,27 @@ flexibility(document.documentElement);
                                                             border-radius: 50%
                                                         }
                                                     </style>
+                                                      <h2 style="color: #000; margin: 10px 0;"> Socials</h2>
                                                     <div class="elementor-social-icons-wrapper elementor-grid">
+                                                        
                                                         <span class="elementor-grid-item">
-					<a class="elementor-icon elementor-social-icon elementor-social-icon-telegram-plane elementor-repeater-item-d72c0ea" href="https://t.me/" target="_blank">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-telegram-plane elementor-repeater-item-d72c0ea" href="https://t.me/bitdogbrock" target="_blank">
 						<span class="elementor-screen-only">Telegram-plane</span>
                                                         <svg class="e-font-icon-svg e-fab-telegram-plane" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M446.7 98.6l-67.6 318.8c-5.1 22.5-18.4 28.1-37.3 17.5l-103-75.9-49.7 47.8c-5.5 5.5-10.1 10.1-20.7 10.1l7.4-104.9 190.9-172.5c8.3-7.4-1.8-11.5-12.9-4.1L117.8 284 16.2 252.2c-22.1-6.9-22.5-22.1 4.6-32.7L418.2 66.4c18.4-6.9 34.5 4.1 28.5 32.2z"></path></svg>                                                        </a>
                                                         </span>
                                                         <span class="elementor-grid-item">
-					<a class="elementor-icon elementor-social-icon elementor-social-icon- elementor-repeater-item-dc3270a" href="https://x.com/" target="_blank">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon- elementor-repeater-item-dc3270a" href="https://twitter.com/Bitdog_Brock" target="_blank">
 						<span class="elementor-screen-only"></span>
                                                         <svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="svg5" x="0px" y="0px" viewBox="0 0 1668.56 1221.19" style="enable-background:new 0 0 1668.56 1221.19;" xml:space="preserve"><g id="layer1" transform="translate(52.390088,-25.058597)">	<path id="path1009" d="M283.94,167.31l386.39,516.64L281.5,1104h87.51l340.42-367.76L984.48,1104h297.8L874.15,558.3l361.92-390.99  h-87.51l-313.51,338.7l-253.31-338.7H283.94z M412.63,231.77h136.81l604.13,807.76h-136.81L412.63,231.77z"></path></g></svg>                                                        </a>
                                                         </span>
+                                                        <hr style="font-weight: 800;">
                                                     </div>
-                                                    <h2 style="color: #000;">Contact Us</h2>
-                                                    <a href="">Mail</a>
+                                                  
+                                                    <h2 style="color: #000; margin: 15px 0;">Contact Us</h2>
+                                                   
+                                                    <a href="mailto:bitdogbrock@gmail.com" style="color: #000; text-decoration: none;">
+                                                        <h3 style="color: #000;">bitdogbrock@gmail.com</h3>
+                                                    </a>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-9962170 elementor-widget elementor-widget-spacer" data-id="9962170" data-element_type="widget" data-widget_type="spacer.default">
