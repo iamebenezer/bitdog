@@ -5073,16 +5073,31 @@ flexibility(document.documentElement);
                                                     justify-content: center;
                                                      align-items: center;
                                                 } 
+                                                .floating-element {
+ 
+ animation: floatAnimation 1.5s infinite alternate ease-in-out;
+}
+
+@keyframes floatAnimation {
+ 0% {
+   transform: translateY(0);
+ }
+ 100% {
+   transform: translateY(-30px);
+ }
+}
                                                   @media screen and (min-width:800px) {
-                                                        /* .bone{
+                                                        .bone{
                                                             display: none;
                                                             
-                                                        } */
-                                                        .bone{
+                                                        }
+                                                        /* .bone{
                                                             margin-top: 100px;
                                                             width: 20%;
-                                                        }
+                                                            
+                                                        } */
                                                 }
+
                                             </style>
                                             <img id="bone-img" src="/wp-content/uploads/2024/01/bone.png" class="spin bone" alt="">
                                             
@@ -5090,7 +5105,7 @@ flexibility(document.documentElement);
                                             
                                                 <div class="elementor-widget-container" data-aos="fade-left">
                                                     
-                                                    <img decoding="async" width="1024" height="1024" src="/wp-content/uploads/2024/01/logo.png" class="attachment-large size-large wp-image-14" alt="" srcset="/wp-content/uploads/2024/01/logo.png 1024w, /wp-content/uploads/2024/01/logo.png 300w, /wp-content/uploads/2024/01/logo.png 150w, /wp-content/uploads/2024/01/logo.png 768w, /wp-content/uploads/2024/01/logo.png 1536w, /wp-content/uploads/2024/01/logo.png 2048w"
+                                                    <img decoding="async" width="1024" height="1024" src="/wp-content/uploads/2024/01/logo.png" class="attachment-large size-large wp-image-14 floating-element" alt="" srcset="/wp-content/uploads/2024/01/logo.png 1024w, /wp-content/uploads/2024/01/logo.png 300w, /wp-content/uploads/2024/01/logo.png 150w, /wp-content/uploads/2024/01/logo.png 768w, /wp-content/uploads/2024/01/logo.png 1536w, /wp-content/uploads/2024/01/logo.png 2048w"
                                                         sizes="(max-width: 1024px) 100vw, 1024px" /> 
                                                     
                                                     </div>
